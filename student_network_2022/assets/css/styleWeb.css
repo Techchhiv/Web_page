@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    display: flex;
     font-family: 'Inter', sans-serif;
-    justify-content: center;
-    align-items: center;
+    background-color: #565771;
 }
 .container{
     width: 375px;
@@ -15,6 +13,12 @@ body{
     background-color: #282A41;
     border-radius: 25px;
     border: 0.2rem solid black;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
 }
 nav{  
    display: flex;
@@ -203,4 +207,9 @@ img{
 .section #icon{
     font-size: 20px;
 }
+
+.section #text{
+    font-size: 10px;
+}
+
 
